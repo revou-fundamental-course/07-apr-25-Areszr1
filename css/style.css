@@ -19,7 +19,7 @@ header {
 
 
 
-/* Pengaturan gaya untuk menu navigasi */
+/* navigasi style */
 nav ul {
     list-style: none;
     padding: 0;
@@ -71,13 +71,13 @@ main>section {
     margin-top: 1px;
 }
 
-/* Gaya Judul */
+
 h2 {
     color: #444;
 }
 
 
-/* Pengaturan gaya untuk tautan */
+ 
 a {
     color: #007BFF;
     text-decoration: none;
@@ -142,30 +142,30 @@ form button:hover {
    text-align: center;
 }
 
-/* Gaya Intro */
-/* Pengaturan gaya untuk elemen intro */
+
+
 .intro {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    margin: 0; /* Menghilangkan space */
+    margin: 0; 
 }
 
 .intro h1 {
-    font-size: 2.5em; /* Memperbesar ukuran font h1 */
-    margin : 0; /* Menghilangkan space */
+    font-size: 2.5em; 
+    margin : 0; 
 }
 
 
 .intro h2 {
-    font-size: 1.8em; /* Memperbesar ukuran font h2 */
-    margin: 0; /* Menghilangkan space */
+    font-size: 1.8em; 
+    margin: 0; 
 }
 .intro p {
-    font-size: 1.2em; /* Memperbesar ukuran font p */
-    margin-top: 10px; /* Menghilangkan space */
+    font-size: 1.2em; 
+    margin-top: 10px; 
 }
 
 h2 {
