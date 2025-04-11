@@ -1,0 +1,174 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #ffffff;
+}
+
+/* Pengaturan gaya untuk bagian header */
+header {
+    background: linear-gradient(to right, #0e4c8f, #00CFFF);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+
+/* Pengaturan gaya untuk menu navigasi */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #0e4c8f, #00CFFF);
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+
+
+/* Menambahkan efek hover untuk item navigasi */
+nav ul li:hover {
+    background-color: hsl(184, 100%, 50%);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Pengaturan gaya untuk elemen section */
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main>section {
+    background: linear-gradient(to bottom, #157bd3, #d326e2);
+    margin-top: 1px;
+}
+
+/* Gaya Judul */
+h2 {
+    color: #444;
+}
+
+
+/* Pengaturan gaya untuk tautan */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Pengaturan gaya untuk elemen form */
+form {
+    color:  #333;
+    max-width: 400px;
+    margin: 20px ;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="date"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* style Intro */
+
+.intro {
+   text-align: center;
+}
+
+/* Gaya Intro */
+/* Pengaturan gaya untuk elemen intro */
+.intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: 0; /* Menghilangkan space */
+}
+
+.intro h1 {
+    font-size: 2.5em; /* Memperbesar ukuran font h1 */
+    margin : 0; /* Menghilangkan space */
+}
+
+
+.intro h2 {
+    font-size: 1.8em; /* Memperbesar ukuran font h2 */
+    margin: 0; /* Menghilangkan space */
+}
+.intro p {
+    font-size: 1.2em; /* Memperbesar ukuran font p */
+    margin-top: 10px; /* Menghilangkan space */
+}
+
+h2 {
+    color: #ffffff;
+}
+

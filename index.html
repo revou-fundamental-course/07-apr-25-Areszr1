@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata dan tautan ke file CSS eksternal -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!--eksternal css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+<!-- Bagian utama dari halaman web -->
+<body>
+
+    <header>
+        <!-- Bagian header untuk judul utama -->
+        <h1>My Portfolio</h1>
+    </header>
+
+    <!-- Menu navigasi untuk berpindah antar bagian -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Projects</a></li>
+            <li><a href="#massage">massage us</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <!-- Area konten utama -->
+        
+        <!-- Bagian Tentang Saya -->
+        <section style="height: 80vh;">
+            <!-- Pengenalan -->
+            <div class="intro" >
+            <h1>HI. Saya Ares</h1>
+            <h2>Saya adalah  seorang mahasiswa yang bercita cita memiliki pekerjaan di bidang IT</h2>
+            <p>Saya memiliki minat dalam pengembangan web, pemrograman, dan teknologi terbaru.</p>
+        </div>
+        </section>
+
+
+        <!-- Bagian Kontak -->
+        <section id="contact" style="height: auto;">
+            <!-- Informasi kontak -->
+            <h2>Contact</h2>
+            <p><h3>Email: <a href="mailto:your.email@example.com">your.email@example.com</h3></a></p>
+            <p>Silakan hubungi saya melalui email untuk informasi lebih lanjut atau kolaborasi.</p>
+        </section>
+
+
+        <!-- Bagian Formulir -->
+        <section id="massage" style="height: 60vh;">
+            <!-- Formulir untuk input pengguna -->
+            <form>
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="dob">Tanggal Lahir:</label>
+                <input type="date" id="dob" name="dob" required><br>
+
+                <label>Jenis Kelamin:</label>
+                
+                <label for="male">Laki-laki</label>
+                <input type="radio" id="male" name="gender" value="male">
+                
+                <label for="female">Perempuan</label>
+                <input type="radio" id="female" name="gender" value="female"><br>
+
+                <label for="message">Pesan:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
