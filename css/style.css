@@ -19,7 +19,14 @@ header {
     font-size: 100%;
 }
 
+<<<<<<< HEAD
 header nav ul {
+=======
+
+
+/* navigasi style */
+nav ul {
+>>>>>>> 07d562bd6ac00be0ac347f84683b72131be989bb
     list-style: none;
     padding: 0;
     display: flex;
@@ -65,13 +72,13 @@ main>section {
     margin-top: 1px;
 }
 
-/* Gaya Judul */
+
 h2 {
     color: #444;
 }
 
 
-/* Pengaturan gaya untuk tautan */
+ 
 a {
     color: #007BFF;
     text-decoration: none;
@@ -136,6 +143,15 @@ form button:hover {
 /* style Intro */
 
 .intro {
+<<<<<<< HEAD
+=======
+   text-align: center;
+}
+
+
+
+.intro {
+>>>>>>> 07d562bd6ac00be0ac347f84683b72131be989bb
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -146,7 +162,11 @@ form button:hover {
 
 .intro h1 {
     font-size: 2.5em; 
+<<<<<<< HEAD
     margin: 0;
+=======
+    margin : 0; 
+>>>>>>> 07d562bd6ac00be0ac347f84683b72131be989bb
 }
 
 .intro h2 {
@@ -157,6 +177,7 @@ form button:hover {
 .intro p {
     font-size: 1.2em; 
     margin-top: 10px; 
+<<<<<<< HEAD
 }
 
 .intro > img {
@@ -167,6 +188,8 @@ form button:hover {
     display: block;
     border-radius: 50%; 
     object-fit: cover;/
+=======
+>>>>>>> 07d562bd6ac00be0ac347f84683b72131be989bb
 }
 
 h2 {
