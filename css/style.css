@@ -1,6 +1,7 @@
 /* General Styles */
 
 body {
+    animation: fadeIn 1s ease-in-out;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -15,43 +16,36 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+    font-size: 100%;
 }
 
-
-
-/* Pengaturan gaya untuk menu navigasi */
-nav ul {
+header nav ul {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
-    background: linear-gradient(to right, #0e4c8f, #00CFFF);
     margin: 0;
 }
 
-nav ul li {
+header nav ul li {
     margin: 0 1rem;
 }
 
-nav ul li a {
+header nav ul li a {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
 
-nav ul li a:hover {
+header nav ul li a:hover {
     text-decoration: none;
 }
 
-
-
-/* Menambahkan efek hover untuk item navigasi */
-nav ul li:hover {
+header nav ul li:hover {
     background-color: hsl(184, 100%, 50%);
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
-
 
 /* Pengaturan gaya untuk elemen section */
 main {
@@ -97,6 +91,8 @@ form {
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
+    box-shadow: #333 0px 5px 15px;
+    transition: all 0.3s ease;
 }
 
 form label {
@@ -139,36 +135,49 @@ form button:hover {
 /* style Intro */
 
 .intro {
-   text-align: center;
-}
-
-/* Gaya Intro */
-/* Pengaturan gaya untuk elemen intro */
-.intro {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    margin: 0; /* Menghilangkan space */
+    margin: 0; 
 }
 
 .intro h1 {
-    font-size: 2.5em; /* Memperbesar ukuran font h1 */
-    margin : 0; /* Menghilangkan space */
+    font-size: 2.5em; 
+    margin: 0;
 }
-
 
 .intro h2 {
-    font-size: 1.8em; /* Memperbesar ukuran font h2 */
-    margin: 0; /* Menghilangkan space */
+    font-size: 1.8em; 
+    margin: 0; 
 }
+
 .intro p {
-    font-size: 1.2em; /* Memperbesar ukuran font p */
-    margin-top: 10px; /* Menghilangkan space */
+    font-size: 1.2em; 
+    margin-top: 10px; 
+}
+
+.intro > img {
+    width: 10%;
+    max-width: 10%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%; 
+    object-fit: cover;/
 }
 
 h2 {
     color: #ffffff;
+}
+/* Animasi fade-in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
