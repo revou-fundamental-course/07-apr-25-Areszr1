@@ -19,19 +19,19 @@ header {
     font-size: 100%;
 }
 
-<<<<<<< HEAD
 header nav ul {
-=======
-
-
-/* navigasi style */
-nav ul {
->>>>>>> 07d562bd6ac00be0ac347f84683b72131be989bb
+    
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
     margin: 0;
+}
+li {
+    display: inline-block;
+    margin: 0 1rem;
+    
+    border-radius: 5px;
 }
 
 header nav ul li {
@@ -67,18 +67,15 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-main>section {
+main > section {
     background: linear-gradient(to bottom, #157bd3, #d326e2);
     margin-top: 1px;
 }
 
-
 h2 {
-    color: #444;
+    color: #ffffff;
 }
 
-
- 
 a {
     color: #007BFF;
     text-decoration: none;
@@ -88,13 +85,11 @@ a:hover {
     text-decoration: underline;
 }
 
-
-
 /* Pengaturan gaya untuk elemen form */
 form {
-    color:  #333;
+    color: #333;
     max-width: 400px;
-    margin: 20px ;
+    margin: 20px;
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -141,43 +136,28 @@ form button:hover {
 }
 
 /* style Intro */
-
 .intro {
-<<<<<<< HEAD
-=======
-   text-align: center;
-}
-
-
-
-.intro {
->>>>>>> 07d562bd6ac00be0ac347f84683b72131be989bb
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    margin: 0; 
+    margin: 0;
 }
 
 .intro h1 {
-    font-size: 2.5em; 
-<<<<<<< HEAD
+    font-size: 2.5em;
     margin: 0;
-=======
-    margin : 0; 
->>>>>>> 07d562bd6ac00be0ac347f84683b72131be989bb
 }
 
 .intro h2 {
-    font-size: 1.8em; 
-    margin: 0; 
+    font-size: 1.8em;
+    margin: 0;
 }
 
 .intro p {
-    font-size: 1.2em; 
-    margin-top: 10px; 
-<<<<<<< HEAD
+    font-size: 1.2em;
+    margin-top: 10px;
 }
 
 .intro > img {
@@ -186,15 +166,10 @@ form button:hover {
     height: auto;
     margin: 0 auto;
     display: block;
-    border-radius: 50%; 
-    object-fit: cover;/
-=======
->>>>>>> 07d562bd6ac00be0ac347f84683b72131be989bb
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-h2 {
-    color: #ffffff;
-}
 /* Animasi fade-in */
 @keyframes fadeIn {
     from {
